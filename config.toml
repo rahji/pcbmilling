@@ -1,0 +1,8 @@
+baseURL = 'https://rahji.github.io/pcbmilling/'
+languageCode = 'en-us'
+title = 'PCB Prototyping'
+theme = 'hugo-book'
+
+[params]
+  # BookRepo = 'https://github.com/rahji/pcbmilling'
+  BookSearch = false
