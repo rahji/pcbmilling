@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>⭕ Holes on PCB Prototyping</title><link>https://rahji.github.io/pcbmilling/docs/flatcam/holes/</link><description>Recent content in ⭕ Holes on PCB Prototyping</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://rahji.github.io/pcbmilling/docs/flatcam/holes/index.xml" rel="self" type="application/rss+xml"/><item><title>Milling Holes</title><link>https://rahji.github.io/pcbmilling/docs/flatcam/holes/milling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rahji.github.io/pcbmilling/docs/flatcam/holes/milling/</guid><description>Milling Holes # Holes can be milled with a flat end mill or they can be drilled using a drill bit.
+Milling allows for non-round holes and avoids having to switch tools when there are multiple hole sizes in the PCB layout.
+The process of creating an .nc file for milling holes looks like this:
+graph LR A[Open
+Drill File]-->|.drl|B[Generate
+Geometry] B-->|.drl_mill|C[Generate
+CNC Job] C-->|.drl_mill_cnc|D[Export
+G-code] Open Drill File # Choose File | Open Excellon, then select the drill file.</description></item><item><title>Drilling Holes</title><link>https://rahji.github.io/pcbmilling/docs/flatcam/holes/drilling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rahji.github.io/pcbmilling/docs/flatcam/holes/drilling/</guid><description>Drilling Holes # Holes can be milled with a flat end mill or they can be drilled using a drill bit.
+When drilling holes (as opposed to milling them), there will be a different .nc file for each size drill bit.
+The process of creating a single .nc file for drilling holes looks like this:
+graph LR A[Open
+Drill File]-->|.drl|B[Generate
+Geometry] B-->|.drl_cnc|D[Export
+G-code] Open Drill File # Choose File | Open Excellon, then select the drill file.</description></item></channel></rss>
