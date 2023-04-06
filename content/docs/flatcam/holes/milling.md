@@ -13,9 +13,9 @@ The process of creating an `.nc` file for milling holes looks like this:
 
 {{< mermaid >}}
 graph LR
-    A[Open Drill File]-->|.drl|B[Generate Geometry]
-    B-->|.drl_mill|C[Generate CNC Job]
-    C-->|.drl_mill_cnc|D[Export G-code]
+    A[Open<br>Drill File]-->|.drl|B[Generate<br>Geometry]
+    B-->|.drl_mill|C[Generate<br>CNC Job]
+    C-->|.drl_mill_cnc|D[Export<br>G-code]
 {{< /mermaid >}}
 
 ### Open Drill File
@@ -26,7 +26,7 @@ graph LR
 
 1. In the "Project" tab, double-click the `.drl` list item
 2. Using the `Shift` key, select all of the tool numbers shown in the "Tools" list
-3. Verify that the settings under "Create CNC Job" are the same as what we entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
+3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
 4. Enter the diameter (in mm) of your flat end mill in the "Tool dia" field
 5. Click the "Generate Geometry" button under "Mill Holes"
 

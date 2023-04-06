@@ -1,7 +1,6 @@
 ---
 title: Drilling Holes
 weight: 2
-bookToc: false
 ---
 
 ## Drilling Holes
@@ -14,8 +13,8 @@ The process of creating a *single* `.nc` file for drilling holes looks like this
 
 {{< mermaid >}}
 graph LR
-    A[Open Drill File]-->|.drl|B[Generate Geometry]
-    B-->|.drl_cnc|D[Export G-code]
+    A[Open<br>Drill File]-->|.drl|B[Generate<br>Geometry]
+    B-->|.drl_cnc|D[Export<br>G-code]
 {{< /mermaid >}}
 
 ### Open Drill File
@@ -26,7 +25,7 @@ graph LR
 
 1. In the "Project" tab, double-click the `.drl` list item
 2. Select a single tool number in the "Tools" list
-3. Verify that the settings under "Create CNC Job" are the same as what we entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
+3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
 4. Click the "Generate" button under "Create CNC Job"
 
 ### Export G-code

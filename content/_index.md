@@ -1,10 +1,10 @@
 ---
-title: Overview
+title: PCB Prototyping Overview
 type: docs
 bookToc: false
 ---
 
-## Overview
+## PCB Prototyping Overview
 
 This website describes how to produce a printed circuit board using the Carbide Nomad desktop CNC milling machine.
 

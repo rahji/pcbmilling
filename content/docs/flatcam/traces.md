@@ -1,5 +1,5 @@
 ---
-title: Traces
+title: 📈 Traces
 weight: 4
 ---
 
@@ -9,9 +9,9 @@ The process of creating an `.nc` file for the isolation routing around your circ
 
 {{< mermaid >}}
 graph LR
-    A[Open Gerber]-->|.gbr|B[Generate Geometry]
-    B-->|.gbr_iso|C[Generate CNC Job]
-    C-->|.gbr_iso_cnc|D[Export G-code]
+    A[Open Bottom<br>Copper Gerber]-->|.gbr|B[Generate<br>Geometry]
+    B-->|.gbr_iso|C[Generate<br>CNC Job]
+    C-->|.gbr_iso_cnc|D[Export<br>G-code]
 {{< /mermaid >}}
 
 ### Open Gerber
@@ -20,10 +20,9 @@ graph LR
 
 ### Generate Geometry
 
-1. In the "Project" tab, select the `.gbr` list item
-2. Click the tab labeled "Selected"
-3. Verify that the settings under "Isolation Routing" are the same as what we entered in [Configuring FlatCAM](../../flatcam/configuring)
-4. Click the "Generate Geometry" button
+1. In the "Project" tab, double-click the `.gbr` list item
+2. Verify that the settings under "Isolation Routing" match what was entered in [Configuring FlatCAM](../../flatcam/configuring)
+3. Click the "Generate Geometry" button
 
 The red paths that are generated are the isolation routes that will be followed by the tools that we define in the next step.
 
@@ -34,7 +33,7 @@ Verify that there is at least one red path between all of the traces and pads on
 ### Generate CNC Job
 
 1. In the "Project" tab, double-click the `.gbr_iso` list item
-2. Verify that the settings under "Create CNC Job" are the same as what we entered in [Configuring FlatCAM](../../flatcam/configuring)
+2. Verify that the settings under "Create CNC Job" match what was entered in [Configuring FlatCAM](../../flatcam/configuring)
 3. Tick the "Multi-Depth" checkbox and set "Depth/pass" to half of the "Cut Z" value. (.5008 in our case.) This will require two passes for each of the cuts, which can make the job easier on the machine and the bit.
 4. Click the "Generate" button under the "Create CNC Job" section
 

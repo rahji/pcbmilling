@@ -3,4 +3,6 @@ title: Preparing to Mill
 weight: 1
 ---
 
-xxx
+## Preparing to Mill
+
+Coming soon
