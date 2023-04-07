@@ -14,14 +14,14 @@ All of the following is done in the PCB Layout application within Diptrace.
 3. Verify that *only* Traces, Pads, and Vias are selected from the list of Objects
 4. Change units to "Metric"
 5. Verify that the X and Y offsets are both 0
-6. **Because this is the bottom later, tick the "Mirror" checkbox**
+6. **Because this is the bottom layer, tick the "Mirror" checkbox**
 7. Click "Export Layer" to save the Bottom layer as a Gerber (.gbr) file
 
 ### Exporting the Board Outline
 
 1. In the same Export Gerber dialog from above, choose the "Board Outline" layer from the list of Layers
 2. Verify that the X and Y offsets are both 0
-3. **Because this is the bottom later, tick the "Mirror" checkbox**
+3. **Because this is the bottom layer, tick the "Mirror" checkbox**
 4. Click "Export Layer" to save the Board Outline layer as a Gerber (.gbr) file
 
 ### Exporting the Drill File
