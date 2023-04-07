@@ -8,7 +8,7 @@ Autodesk Eagle is now Autodesk Fusion 360. All of the following is done in the E
 
 ### Download the CAM Processor Job File
 
-To make the export process simpler, I have created a CAM Processor job file. [Download it here](/pcbmilling/assets/bottom_outline_drill.cam) before continuing.
+To make the export process simpler, I have created a CAM Processor job file. [Download it here](/pcbmilling/assets/bottom_outline_drill_mirrored.cam) before continuing. This file is configured to mirror the Gerber and drill file outputs. (For non-mirrored output, [use this file instead](/pcbmilling/assets))
 
 ### Export the Gerber and Drill Files
 
