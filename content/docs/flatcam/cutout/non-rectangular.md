@@ -17,15 +17,16 @@ graph LR
     D-->|.nc file|E[Edit<br>G-code]
 {{< /mermaid >}}
 
-### Select Existing Bottom Copper Gerber
+### Open Gerber
 
-1. In the "Project" tab, double-click the existing `.gbr` list item
+1. Choose `File | Open Gerber`, then select the Gerber file for the board cutout
 
 ### Generate Geometry
 
 1. Under "Board Cutout", verify that the "Tool dia" matches what was entered in [Configuring FlatCAM](../../flatcam/configuring) (1.5875 mm, 1/16" is a good choice for cutting out the board)
 2. Optionally adjust the "Margin", "Gap Size", and "Gaps"
-3. Click the "Generate Geometry" button under "Board cutout"
+3. Set "Width (# of passes)" to 1
+4. Click the "Generate Geometry" button under "Board cutout"
 
 The red paths that are generated will be followed by the tools that we define in the next step. Note that there are two paths. We will remedy by editing the `.nc` file at the end.
 
@@ -33,7 +34,7 @@ The red paths that are generated will be followed by the tools that we define in
 
 1. In the "Project" tab, double-click the `.gbr_cutout` list item
 2. Change the values in the "Create CNC Job" section:
-   * Cut Z: -1.7018 *(the thickness of the PCB blank)*
+   * Cut Z: -1.7 *(the thickness of the PCB blank)*
    * Travel Z: 2.0 *(how high to raise the end mill when it's not cutting)*
    * Feed Rate: 90 *(mm/min)*
    * Tool dia: 1.5875 *(1/16" flat end mill)*

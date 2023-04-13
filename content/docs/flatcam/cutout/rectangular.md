@@ -32,7 +32,7 @@ The red paths that are generated will be followed by the tools that we define in
 
 1. In the "Project" tab, double-click the `.gbr_cutout` list item
 2. Change the values in the "Create CNC Job" section:
-   * Cut Z: -1.7018 *(the thickness of the PCB blank)*
+   * Cut Z: -1.7 *(the thickness of the PCB blank)*
    * Travel Z: 2.0 *(how high to raise the end mill when it's not cutting)*
    * Feed Rate: 90 *(mm/min)*
    * Tool dia: 1.5875 *(1/16" flat end mill)*

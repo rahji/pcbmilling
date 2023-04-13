@@ -34,7 +34,7 @@ graph LR
 
 1. In the "Project" tab, double-click the `.drl_mill` list item
 2. Change the values in the "Create CNC Job" section:
-   * Cut Z: -1.7018 *(the thickness of the PCB blank)*
+   * Cut Z: -1.7 *(the thickness of the PCB blank)*
    * Travel Z: 2.0 *(how high to raise the end mill when it's not cutting)*
    * Feed Rate: 100 *(mm/min)*
    * Tool dia: 0.79248 *(1/32" flat end mill)*
