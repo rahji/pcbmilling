@@ -34,8 +34,7 @@ Verify that there is at least one red path between all of the traces and pads on
 
 1. In the "Project" tab, double-click the `.gbr_iso` list item
 2. Verify that the settings under "Create CNC Job" match what was entered in [Configuring FlatCAM](../../flatcam/configuring), under "Geometry Options (for Isolation Routing)"
-<!-- 3. Tick the "Multi-Depth" checkbox and set "Depth/pass" to half of the "Cut Z" value. (.05008 in our case.) This will require two passes for each of the cuts, which can make the job easier on the machine and the bit. -->
-4. Click the "Generate" button under the "Create CNC Job" section
+3. Click the "Generate" button under the "Create CNC Job" section
 
 The blue paths that are generated are the areas of copper that will be cut away by the tool we just specified. Yellow lines are "links": movements where the tool is raised, and not cutting. Again, verify that everything looks correct.
 
