@@ -8,4 +8,4 @@ graph LR A[Open Bottom
 Copper Gerber]-->|.gbr|B[Generate
 Geometry] B-->|.gbr_iso|C[Generate
 CNC Job] C-->|.gbr_iso_cnc|D[Export
-G-code] Open Gerber # Choose File | Open Gerber, then select the Gerber file for the bottom of your PCB Generate Geometry # In the &amp;ldquo;Project&amp;rdquo; tab, double-click the .gbr list item Verify that the settings under &amp;ldquo;Isolation Routing&amp;rdquo; match what was entered in Configuring FlatCAM Click the &amp;ldquo;Generate Geometry&amp;rdquo; button The red paths that are generated are the isolation routes that will be followed by the tools that we define in the next step.</description></item></channel></rss>
+G-code] Open Gerber # Choose File | Open Gerber, then select the Gerber file for the bottom of your PCB Notice that the PCB layout is displayed as if you are looking at the bottom of the board.</description></item></channel></rss>
