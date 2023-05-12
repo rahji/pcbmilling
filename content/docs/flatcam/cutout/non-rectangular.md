@@ -5,7 +5,7 @@ weight: 2
 
 ## Non-Rectangular Board Shape
 
-While FlatCAM has a fairly simple method for cutting a board outline based on the extents of the board's traces (see [Rectangular Board Cutout](../../cutout/rectangular)), that method doesn't allow for cutting non-rectangular PCBs. The process below uses the board outline Gerber file that you exported earlier to create toolpaths for any board shape. Unfortunately, it requires an extra step of editing the finished `.nc` file.
+While FlatCAM has a fairly simple method for cutting a board outline based on the extents of the board's traces (see [Rectangular Board Cutout](../../cutout/rectangular)), that method doesn't allow for cutting non-rectangular PCBs. The process below uses the board outline Gerber file that you exported earlier to create toolpaths for any board shape. Unfortunately, it requires an extra step of editing the finished `.nc` file. Note that this process can be used for rectangular boards, as well.
 
 The process of creating an `.nc` file for cutting out the finished *non-rectangular* PCB looks like this:
 

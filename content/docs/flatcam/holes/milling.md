@@ -26,7 +26,7 @@ graph LR
 
 1. In the "Project" tab, double-click the `.drl` list item
 2. Using the `Shift` key, select all of the tool numbers shown in the "Tools" list
-3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
+3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../configuring)
 4. Enter the diameter (in mm) of your flat end mill in the "Tool dia" field
 5. Click the "Generate Geometry" button under "Mill Holes"
 

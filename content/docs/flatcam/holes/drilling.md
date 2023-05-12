@@ -25,7 +25,7 @@ graph LR
 
 1. In the "Project" tab, double-click the `.drl` list item
 2. Select a single tool number in the "Tools" list
-3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../flatcam/configuring)
+3. Verify that the settings under "Create CNC Job" match what was entered in the "Exellon Options" section of [Configuring FlatCAM](../../configuring)
 4. Click the "Generate" button under "Create CNC Job"
 
 ### Export G-code

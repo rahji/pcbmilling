@@ -18,6 +18,10 @@ graph LR
 
 1. Choose `File | Open Gerber`, then select the Gerber file for the bottom of your PCB
 
+{{< hint info >}}
+Notice that the PCB layout is displayed as if you are looking at the bottom of the board. Most EDA software packages display the PCB layout as if it were viewed from the top side of the board - even if you are examining traces on the bottom of the board. FlatCAM displays the PCB layout as described in the Gerber file, and since we exported the Gerber files with mirroring turned on, you should be seeing a view of the board from its bottom side at this point.
+{{< /hint >}}
+
 ### Generate Geometry
 
 1. In the "Project" tab, double-click the `.gbr` list item
